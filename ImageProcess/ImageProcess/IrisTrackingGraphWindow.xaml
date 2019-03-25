@@ -1,0 +1,59 @@
+﻿<Window x:Class="ImageProcess.IrisTrackingGraphWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageProcess"
+        xmlns:ctl="clr-namespace:ImageProcess.Controls"
+        mc:Ignorable="d"
+        Title="IrisTrackingGraphWindow" Height="300" Width="300">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Button Name="btn_start" Content="开始"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Margin="5">
+                <ctl:BufferPresenter x:Name="canv_left"/>
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                    <TextBlock Name="tb_left_min" />
+                    <TextBlock Name="tb_left_max" />
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5" Grid.Column="1">
+                <ctl:BufferPresenter x:Name="canv_right"/>
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                    <TextBlock Name="tb_right_min" />
+                    <TextBlock Name="tb_right_max" />
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5" Grid.Row="1">
+                <ctl:BufferPresenter x:Name="canv_lt"/>
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                    <TextBlock Name="tb_lt_min" />
+                    <TextBlock Name="tb_lt_max" />
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5" Grid.Row="1" Grid.Column="1">
+                <ctl:BufferPresenter x:Name="canv_rt"/>
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                    <TextBlock Name="tb_rt_min" />
+                    <TextBlock Name="tb_rt_max" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>
