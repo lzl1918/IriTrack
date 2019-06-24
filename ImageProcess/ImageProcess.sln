@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointAngleCS", "PointAngleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessColorful", "ImageProcessColorful\ImageProcessColorful.csproj", "{6BAB38F9-C403-4982-A0B3-F22BBF002C08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessWithCenter", "ImageProcessWithCenter\ImageProcessWithCenter.csproj", "{486645FC-EC1A-4C05-B4F7-08A640C50CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessExploit", "ImageProcessExploit\ImageProcessExploit.csproj", "{486645FC-EC1A-4C05-ECC5-08A640C50CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointAngleCSExploit", "PointAngleCSExploit\PointAngleCSExploit.csproj", "{18777000-4DD6-4D24-C92E-0C4AC737643B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +75,42 @@ Global
 		{6BAB38F9-C403-4982-A0B3-F22BBF002C08}.Release|x64.Build.0 = Release|x64
 		{6BAB38F9-C403-4982-A0B3-F22BBF002C08}.Release|x86.ActiveCfg = Release|x86
 		{6BAB38F9-C403-4982-A0B3-F22BBF002C08}.Release|x86.Build.0 = Release|x86
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|x64.ActiveCfg = Debug|x64
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|x64.Build.0 = Debug|x64
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|x86.ActiveCfg = Debug|x86
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Debug|x86.Build.0 = Debug|x86
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|x64.ActiveCfg = Release|x64
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|x64.Build.0 = Release|x64
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|x86.ActiveCfg = Release|x86
+		{486645FC-EC1A-4C05-B4F7-08A640C50CD9}.Release|x86.Build.0 = Release|x86
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|x64.ActiveCfg = Debug|x64
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|x64.Build.0 = Debug|x64
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|x86.ActiveCfg = Debug|x86
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Debug|x86.Build.0 = Debug|x86
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|x64.ActiveCfg = Release|x64
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|x64.Build.0 = Release|x64
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|x86.ActiveCfg = Release|x86
+		{486645FC-EC1A-4C05-ECC5-08A640C50CD9}.Release|x86.Build.0 = Release|x86
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|x64.ActiveCfg = Debug|x64
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|x64.Build.0 = Debug|x64
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Debug|x86.Build.0 = Debug|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|x64.ActiveCfg = Release|x64
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|x64.Build.0 = Release|x64
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|x86.ActiveCfg = Release|Any CPU
+		{18777000-4DD6-4D24-C92E-0C4AC737643B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
